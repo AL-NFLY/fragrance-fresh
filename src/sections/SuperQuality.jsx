@@ -11,7 +11,7 @@ const SuperQuality = () => {
             <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Fragrances</span>
           </h2>
 
-          <p className="mt-10 lg:max-w-lg info-text">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion.</p>
+          <p className="mt-10 lg:max-w-2xl info-text">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion.</p>
           <p className="mt-6 info-text">Our dedication towards reaching that olfactory scent is paramount</p>
           <div className="mt-10">
             <Button label="View Details" />
