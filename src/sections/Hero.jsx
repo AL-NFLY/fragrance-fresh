@@ -3,11 +3,11 @@ import { useState } from "react";
 import { arrowRight } from "../assets/icons"
 import { bigAqua1 } from "../assets/images";
 import Button from "../components/Button"
-import ShoeCard from "../components/ShoeCard"
-import { shoes, statistics } from "../constants"
+import { fragrances, statistics } from "../constants"
+import AquaCard from "../components/ShoeCard";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigAqua1) 
+  const [bigAquaImg, setbigAquaImg] = useState(bigAqua1) 
   return (
     <section 
     id="home"
@@ -38,20 +38,20 @@ const Hero = () => {
       
       <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-center">
         <img 
-        src={bigShoeImg} 
+        src={bigAquaImg} 
         alt="aqua cologne forte collection"
         width={250}
         height={500}
         className="relative object-contain z-10"
         />
 
-        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:-[10%] max-sm:px-6">
-          {shoes.map((shoe) =>(
-            <div key={shoe}>
-              <ShoeCard
-                imgURL={shoe} 
-                changeBigShoeImage ={(shoe) => setBigShoeImg(shoe)}
-                bigShoeImg = {bigShoeImg}
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:-[10%] max-sm:px-6 ">
+          {fragrances.map((aqua) =>(
+            <div key={aqua} className="hover:scale-[1.05] active:scale-[0.95] duration-300">
+              <AquaCard
+                imgURL={aqua} 
+                changeBigAquaImage ={(aqua) => setbigAquaImg(aqua)}
+                bigAquaImg={bigAquaImg}
               />
             </div>
           ))}

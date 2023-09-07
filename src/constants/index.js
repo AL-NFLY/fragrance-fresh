@@ -23,18 +23,18 @@ export const navLinks = [
 //     },
 // ];
 
-export const shoes = [
+export const fragrances = [
     {
         thumbnail: thumbnailAqua1,
-        bigShoe: bigAqua1,
+        bigAqua: bigAqua1,
     },
     {
         thumbnail: thumbnailAqua2,
-        bigShoe: bigAqua2,
+        bigAqua: bigAqua2,
     },
     {
         thumbnail: thumbnailAqua3,
-        bigShoe: bigAqua3,
+        bigAqua: bigAqua3,
     },
 ];
 
