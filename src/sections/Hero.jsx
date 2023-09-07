@@ -15,14 +15,14 @@ const Hero = () => {
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">Our Summer Collection</p>
-        <h1 className="mt-10 font-palanquin font-bold text-8xl max-sm:text-[72] max-sm:leading-[82]">
-          <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10 pr-10">
+        <h1 className="mt-10 font-palanquin font-bold text-8xl max-sm:text-4xl max-sm:leading-none">
+          <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10">
             New Arrivals from 
-            </span>
-          <br />
-          <span className="text-coral-red inline-block mt-3">MFK </span> <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10">Fragrances</span>
-          
+          </span>
+          <span className="text-coral-red xl:inline-block lg:mt-3"> MFK</span> 
+          <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Fragrances</span>
         </h1>
+        
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-12 sm:max-w-sm">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion.</p>
         <Button label="Shop now" iconURL={arrowRight} />
 
