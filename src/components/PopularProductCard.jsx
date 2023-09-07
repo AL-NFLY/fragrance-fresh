@@ -23,8 +23,8 @@ const PopularProductCard = ({imgURL, imgTopURL, name, consentration, price}) => 
       </div>
         <div className="px-8 py-2">
           <h3 className="mt-2 text-2xl leading-normal font-bauerbodoni font-semibold ">{name}</h3>
-          <p className="text-base leading-normal font-postgrotesk ">{consentration}</p>
-          <p className="text-base leading-normal font-postgrotesk ">{price}</p>
+          <p className="text-base leading-normal font-postgrotesk text-slate-gray">{consentration}</p>
+          <p className="text-base leading-normal font-postgrotesk text-slate-gray">{price}</p>
         </div>
     </div>
   )
