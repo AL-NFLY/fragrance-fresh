@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 import { arrowRight } from "../assets/icons"
-import { bigShoe1 } from "../assets/images"
+import { bigAqua1 } from "../assets/images";
 import Button from "../components/Button"
 import ShoeCard from "../components/ShoeCard"
 import { shoes, statistics } from "../constants"
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1) 
+  const [bigShoeImg, setBigShoeImg] = useState(bigAqua1) 
   return (
     <section 
     id="home"
@@ -22,8 +22,8 @@ const Hero = () => {
           <span className="text-coral-red xl:inline-block lg:mt-3"> MFK</span> 
           <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Fragrances</span>
         </h1>
-        
-        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-12 sm:max-w-sm">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion.</p>
+          
+        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-12 sm:max-w-sm">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
         <Button label="Shop now" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
@@ -39,8 +39,8 @@ const Hero = () => {
       <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-center">
         <img 
         src={bigShoeImg} 
-        alt="shoe collection"
-        width={610}
+        alt="aqua cologne forte collection"
+        width={250}
         height={500}
         className="relative object-contain z-10"
         />

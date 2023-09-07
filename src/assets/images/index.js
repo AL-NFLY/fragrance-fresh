@@ -24,6 +24,14 @@ import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
 import mfkLogo from './mfk-logo.svg'
 
+import bigAqua1 from './big-aqua-1.png'
+import bigAqua2 from './big-aqua-2.png'
+import bigAqua3 from './big-aqua-3.png'
+
+import thumbnailAqua1 from './thumbnail-aqua1.png'
+import thumbnailAqua2 from './thumbnail-aqua2.png'
+import thumbnailAqua3 from './thumbnail-aqua3.png'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -48,4 +56,12 @@ export {
     thumbnailShoe3,
 
     mfkLogo,
+
+    bigAqua1,
+    bigAqua2,
+    bigAqua3,
+
+    thumbnailAqua1,
+    thumbnailAqua2,
+    thumbnailAqua3,
 }
