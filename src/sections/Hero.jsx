@@ -45,7 +45,7 @@ const Hero = () => {
         className="relative object-contain z-10 max-sm:w-52 max-sm:pb-12"
         />
 
-        <div className="flex sm:gap-12 gap-4 absolute -bottom-[5%] max-sm:bottom-8 max-sm:px-6  ">
+        <div className="flex sm:gap-12 gap-4 absolute bottom-[5%] max-sm:bottom-8 max-sm:px-6  ">
           {fragrances.map((aqua) =>(
             <div key={aqua} className="hover:scale-[1.05] active:scale-[0.95] duration-300">
               <AquaCard
