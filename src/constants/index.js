@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigAqua1, bigAqua2, bigAqua3, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailAqua1, thumbnailAqua2, thumbnailAqua3, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { big72four1, big72four2, bigAqua1, bigAqua2, bigAqua3, bigBaccaratExt1, bigBaccaratExt2, bigGrandSoir1, bigGrandSoir2, bigOudSatin1,  bigOudSatin2,  customer1, customer2, shoe7, thumbnailAqua1, thumbnailAqua2, thumbnailAqua3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "HOME" },
@@ -46,26 +46,57 @@ export const statistics = [
     { value: '$9M', label: 'Annual Profit' },
 ];
 
+// export const products = [
+//     {
+//         imgURL: shoe4,
+//         name: "Nike Air Jordan-01",
+//         price: "$200.20",
+//     },
+//     {
+//         imgURL: shoe5,
+//         name: "Nike Air Jordan-10",
+//         price: "$210.20",
+//     },
+//     {
+//         imgURL: shoe6,
+//         name: "Nike Air Jordan-100",
+//         price: "$220.20",
+//     },
+//     {
+//         imgURL: shoe7,
+//         name: "Nike Air Jordan-001",
+//         price: "$230.20",
+//     },
+// ];
+
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL: bigBaccaratExt1,
+        imgTopURL: bigBaccaratExt2,
+        name: "Baccarat Rouge 540",
+        consentration: 'Extrait de parfum',
+        price: "$465.00",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        imgURL: bigGrandSoir1,
+        imgTopURL: bigGrandSoir2,
+        name: "Grand Soir",
+        consentration: 'Eau de parfum',
+        price: "$240.00",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        imgURL: bigOudSatin1,
+        imgTopURL: bigOudSatin2,
+        name: "Oud Satin Mood",
+        consentration: 'Extrait de parfum',
+        price: "$435.00",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: big72four1,
+        imgTopURL: big72four2,
+        name: "724",
+        consentration: 'Eau de parfum',
+        price: "$275.00",
     },
 ];
 
