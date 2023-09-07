@@ -44,6 +44,8 @@ import thumbnailAqua1 from './thumbnail-aqua1.png'
 import thumbnailAqua2 from './thumbnail-aqua2.png'
 import thumbnailAqua3 from './thumbnail-aqua3.png'
 
+import heroShowerGel from './hero-showergel.jpg'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -88,4 +90,6 @@ export {
     thumbnailAqua1,
     thumbnailAqua2,
     thumbnailAqua3,
+
+    heroShowerGel,
 }
