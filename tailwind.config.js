@@ -20,6 +20,8 @@ export default {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        bauerbodoni: ['bauerbodoni','san-serif'],
+        postgrotesk: ['postgrotesk-book', 'san-serif'],
       },
       colors: {
         'primary': "#ECEEFF",
