@@ -5,7 +5,7 @@ const Button = ({ label, iconURL, backgroundColor, borderColor, textColor, fullW
         ${
           backgroundColor
             ? `${backgroundColor} ${borderColor} ${textColor} `
-            : 'bg-coral-red border-coral-red text-white'
+            : 'bg-primary border-primary text-white'
         } ${fullWidth && 'w-full'}
       `}>
 
@@ -14,7 +14,7 @@ const Button = ({ label, iconURL, backgroundColor, borderColor, textColor, fullW
       {iconURL && <img 
       src={iconURL} 
       alt="arrow right icon"
-      className="ml-2 rounded-full w-5 h-5"
+      className="ml-2 rounded-full w-5 h-5 "
       />}
     </button>
   )

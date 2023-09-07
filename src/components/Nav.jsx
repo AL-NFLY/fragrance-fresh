@@ -5,7 +5,7 @@ import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full border-b bgwhi">
+    <header className="padding-x py-6 absolute z-10 w-full border-b border-slate-300 bg-white bg-opacity-75">
         <nav className="flex justify-between items-center max-container">
             <a href="">
                 <img src={mfkLogo} 

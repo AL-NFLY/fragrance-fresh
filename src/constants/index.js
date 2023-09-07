@@ -41,9 +41,9 @@ export const fragrances = [
 
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '12', label: 'Collections' },
+    { value: '100+', label: 'Fragrances' },
+    { value: '$9M', label: 'Annual Profit' },
 ];
 
 export const products = [
