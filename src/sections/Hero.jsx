@@ -25,10 +25,10 @@ const Hero = () => {
         <p className="font-postgrotesk text-slate-gray text-lg leading-8 mt-6 mb-12 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
         <Button label="Shop now" iconURL={arrowRight} />
 
-        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16 ">
+        <div className="flex justify-start max-sm:justify-between items-start flex-wrap w-full mt-20 max-sm:mt-10 gap-16 max-sm:gap-8">
           {statistics.map((stat) =>(
             <div key={stat.label}>
-              <p className="text-4xl font-postgrotesk font-bold">{stat.value}</p>
+              <p className="text-4xl max-sm:text-3xl font-postgrotesk font-bold">{stat.value}</p>
               <p className="leading-6 font-postgrotesk text-slate-gray">{stat.label}</p> 
             </div>
           ))}
@@ -36,16 +36,16 @@ const Hero = () => {
       </div>
       
       {/* <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-center"> */}
-      <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-gradient-to-br from-slate-300 via-amber-50 to-slate-300 rounded-lg bg-center">
+      <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 max-sm:mt-10 bg-gradient-to-br from-slate-300 via-amber-50 to-slate-300 rounded-lg bg-center">
         <img 
         src={bigAquaImg} 
         alt="aqua cologne forte collection"
         width={250}
         height={500}
-        className="relative object-contain z-10"
+        className="relative object-contain z-10 max-sm:w-52 max-sm:pb-12"
         />
 
-        <div className="flex sm:gap-12 gap-4 absolute -bottom-[5%] sm:-[10%] max-sm:px-6 ">
+        <div className="flex sm:gap-12 gap-4 absolute -bottom-[5%] max-sm:bottom-8 max-sm:px-6  ">
           {fragrances.map((aqua) =>(
             <div key={aqua} className="hover:scale-[1.05] active:scale-[0.95] duration-300">
               <AquaCard

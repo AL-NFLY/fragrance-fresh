@@ -14,7 +14,7 @@ const AquaCard = ({imgURL, changeBigAquaImage, bigAquaImg}) => {
     `}
     onClick={handleClick}
     >
-        <div className="flex justify-center items-center bg-gradient-to-r from-slate-200 to-slate-50 rounded-lg bg-center bg-cover sm:w-44 sm:h-44  max-sm:p-4">
+        <div className="flex justify-center items-center bg-gradient-to-r from-slate-200 to-slate-50 rounded-lg bg-center bg-cover sm:w-44 sm:h-44">
             <img 
             src={imgURL.thumbnail} 
             alt="shoe collection"
