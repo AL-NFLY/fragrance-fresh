@@ -1,14 +1,14 @@
-import { headerLogo } from "../assets/images";
 import { hamburger } from "../assets/icons";
+import { mfkLogo } from "../assets/images";
 import { navLinks } from "../constants";
 
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-8 absolute z-10 w-full border-b bgwhi">
         <nav className="flex justify-between items-center max-container">
             <a href="">
-                <img src={headerLogo} 
+                <img src={mfkLogo} 
                 alt="Logo"
                 width={150} 
                 height={39}
