@@ -4,7 +4,7 @@ import { arrowRight } from "../assets/icons"
 import { bigAqua1 } from "../assets/images";
 import Button from "../components/Button"
 import { fragrances, statistics } from "../constants"
-import AquaCard from "../components/ShoeCard";
+import AquaCard from "../components/AquaCard";
 
 const Hero = () => {
   const [bigAquaImg, setbigAquaImg] = useState(bigAqua1) 
