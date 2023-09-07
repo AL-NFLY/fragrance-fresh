@@ -28,6 +28,18 @@ import bigAqua1 from './big-aqua-1.png'
 import bigAqua2 from './big-aqua-2.png'
 import bigAqua3 from './big-aqua-3.png'
 
+import bigBaccaratExt1 from './big-baccarat-ext1.png'
+import bigBaccaratExt2 from './big-baccarat-ext2.png'
+
+import bigGrandSoir1 from './big-grandsoir1.png'
+import bigGrandSoir2 from './big-grandsoir2.png'
+
+import bigOudSatin1 from './big-oudsatin1.png'
+import bigOudSatin2 from './big-oudsatin2.png'
+
+import big72four1 from './big-72four1.png'
+import big72four2 from './big-72four2.png'
+
 import thumbnailAqua1 from './thumbnail-aqua1.png'
 import thumbnailAqua2 from './thumbnail-aqua2.png'
 import thumbnailAqua3 from './thumbnail-aqua3.png'
@@ -60,6 +72,18 @@ export {
     bigAqua1,
     bigAqua2,
     bigAqua3,
+
+    bigBaccaratExt1,
+    bigBaccaratExt2,
+
+    bigGrandSoir1,
+    bigGrandSoir2,
+
+    bigOudSatin1,
+    bigOudSatin2,
+
+    big72four1,
+    big72four2,
 
     thumbnailAqua1,
     thumbnailAqua2,

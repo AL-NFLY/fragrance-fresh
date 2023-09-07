@@ -20,7 +20,7 @@ const Nav = () => {
                     <li key={item.label}>
                       <a 
                       href={item.href}
-                      className="font-postgrotesk leading-none text-base text-slate-gray"
+                      className="font-postgrotesk leading-none text-base text-slate-gray hover:text-primary hover:underline hover:underline-offset-4 duration-300"
                       >
                         {item.label}
                       </a>
