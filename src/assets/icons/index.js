@@ -11,6 +11,10 @@ import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
 
+import github from './github.svg'
+import linkedin from './linkedin.svg'
+import gmail from './gmail.svg'
+
 export {
     arrowRight,
     cheveronRight,
@@ -23,5 +27,8 @@ export {
     shieldTick,
     star,
     truckFast,
-    twitter
+    twitter,
+    github,
+    linkedin,
+    gmail,
 }

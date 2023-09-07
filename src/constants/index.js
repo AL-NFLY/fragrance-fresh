@@ -1,4 +1,4 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
+import { gmail, linkedin, github, shieldTick, support, truckFast } from "../assets/icons";
 import { big72four1, big72four2, bigAqua1, bigAqua2, bigAqua3, bigBaccaratExt1, bigBaccaratExt2, bigGrandSoir1, bigGrandSoir2, bigOudSatin1,  bigOudSatin2,  customer1, customer2, shoe7, thumbnailAqua1, thumbnailAqua2, thumbnailAqua3 } from "../assets/images";
 
 export const navLinks = [
@@ -102,6 +102,11 @@ export const products = [
 
 export const services = [
     {
+        imgURL: support,
+        label: "Free sample",
+        subtext: "Each order above $250 will receive a complementary sample."
+    },
+    {
         imgURL: truckFast,
         label: "Free shipping",
         subtext: "Enjoy seamless shopping with our complimentary shipping service."
@@ -110,11 +115,6 @@ export const services = [
         imgURL: shieldTick,
         label: "Secure Payment",
         subtext: "Experience worry-free transactions with our secure payment options."
-    },
-    {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
     },
 ];
 
@@ -138,12 +138,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Baccarat Rouge 540", link: "/" },
+            { name: "Grand Soir", link: "/" },
+            { name: "Gentle Fluidity Silver", link: "/" },
+            { name: "Amyris Homme", link: "/" },
+            { name: "Amyris Femme", link: "/" },
+            { name: "Feminim Pluriel", link: "/" },
         ],
     },
     {
@@ -159,14 +159,13 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "almer.nfly@gmail.com", link: "mailto:almer.nfly@gmail.com" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: github, alt: "github logo", link: "https://github.com/AL-NFLY" },
+    { src: linkedin, alt: "linkedin logo", link: "https://www.linkedin.com/in/almer-naufaly/" },
+    { src: gmail, alt: "gmail logo", link:"/"},
 ];
