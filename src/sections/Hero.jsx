@@ -14,16 +14,18 @@ const Hero = () => {
     className="w-full flex xl:flex-row flex-col justify-center min-h-screen max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text-xl font-postgrotesk text-primary">Our Summer Collection</p>
-        <h1 className="mt-10 font-bauerbodoni  font-bold text-8xl max-sm:text-4xl">
+        <p className="text-xl font-postgrotesk text-primary max-sm:mt-6">Our Summer Collection</p>
+        <h1 className="mt-8 font-bauerbodoni  font-bold text-8xl max-sm:text-4xl">
           <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10">New Summer</span>
           <span className="text-primary xl:inline-block lg:mt-3"> MFK </span> 
           <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Arrivals</span>
           {/* <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Fragrances</span> */}
         </h1>
 
-        <p className="font-postgrotesk text-slate-gray text-lg leading-8 mt-6 mb-12 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
+        <p className="font-postgrotesk text-slate-gray text-lg leading-8 mt-6 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
+        <div className="mt-12">
         <Button label="Shop now" iconURL={arrowRight} />
+        </div>
 
         <div className="flex justify-start max-sm:justify-between items-start flex-wrap w-full mt-20 max-sm:mt-10 gap-16 max-sm:gap-8">
           {statistics.map((stat) =>(
