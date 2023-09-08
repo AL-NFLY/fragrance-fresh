@@ -10,7 +10,7 @@ const PopularProductCard = ({imgURL, imgTopURL, name, consentration, price}) => 
   }
 
   return (
-    <div className="flex flex-1 flex-col w-full  hover:scale-[1.05] active:[0.95] duration-300 group">
+    <div className="flex flex-1 flex-col w-full  hover:scale-[1.05] active:[0.95] duration-300 group ease-in-out transition-all ">
       <div className="group">
         {/* <img src={imgURL} alt={name} className="w-[280px] h-[280px] bg-gradient-to-r from-slate-200 to-slate-50 rounded-lg group-hover:border-b-4 border-b-primary duration-200 group-hover:hidden" /> */}
         <img 

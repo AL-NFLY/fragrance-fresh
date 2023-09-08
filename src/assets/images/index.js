@@ -46,6 +46,11 @@ import thumbnailAqua3 from './thumbnail-aqua3.png'
 
 import heroShowerGel from './hero-showergel.jpg'
 
+import discForHim from './discovery-forhim.png'
+import discForHer from './discovery-forher.png'
+import discGold from './discovery-trottergold.png'
+import discZinc from './discovery-trotterzinc.png'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -92,4 +97,8 @@ export {
     thumbnailAqua3,
 
     heroShowerGel,
+    discForHim,
+    discForHer,
+    discGold,
+    discZinc,
 }
