@@ -4,7 +4,7 @@ import Button from "../components/Button"
 const SpecialOffers = () => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container mt-8">
-      <div className="flex flex-row flex-1 flex-wrap items-center justify-center rounded-md pb-10 bg-gradient-to-r from-slate-200 via-slate-100 to-slate-200 shadow-sm hover:border-b-4 border-b-primary duration-500">
+      <div className="flex flex-row flex-1 flex-wrap items-center justify-center rounded-md pb-10 bg-gradient-to-r from-slate-200 via-slate-100 to-slate-200 dark:bg-gradient-to-br dark:from-neutral-900 dark:via-neutral-900 dark:to-neutral-800 shadow-sm hover:border-b-4 border-b-primary duration-500">
         {/* <img src={offer} alt="offer" width={773} height={687}  
         className="object-contain w-full"
         /> */}
@@ -24,8 +24,8 @@ const SpecialOffers = () => {
           Special Offer 
         </h2>
 
-        <p className="mt-8 max-sm:mt-6 text-lg text-slate-gray lg:max-w-xl font-postgrotesk leading-8">Delve into the world of Maison Francis Kurkdjian with our discovery collections. Explore unique scents with perfume sets which will stir memories and dreams to aspire to the exceptional.</p>
-        <p className="mt-6 max-sm:mt-4 text-lg text-slate-gray lg:max-w-xl font-postgrotesk leading-8">These olfactory wardrobes invite you to browse through the scents. A wonderful way of exploring the perfumes of the Maison and a perfect gift to give or receive.</p>
+        <p className="mt-8 max-sm:mt-6 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">Delve into the world of Maison Francis Kurkdjian with our discovery collections. Explore unique scents with perfume sets which will stir memories and dreams to aspire to the exceptional.</p>
+        <p className="mt-6 max-sm:mt-4 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">These olfactory wardrobes invite you to browse through the scents. A wonderful way of exploring the perfumes of the Maison and a perfect gift to give or receive.</p>
 
         <div className="mt-10 flex flex-wrap gap-6 max-sm:justify-center">
           <Button 
@@ -33,9 +33,9 @@ const SpecialOffers = () => {
           />
           <Button 
             label="Learn More"
-            backgroundColor="bg-white"
+            backgroundColor="bg-white dark:bg-clip-text"
             borderColor="border-slate-gray"
-            textColor="text-slate-gray"
+            textColor="text-slate-gray dark:text-white-400"
           />
         </div>
       </div>
