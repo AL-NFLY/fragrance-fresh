@@ -1,10 +1,11 @@
 # Fragrance Fresh
 
-An on-going personal e-commerce project, inspired by Maison Francis Kurkdjian
+![Website Thumbnail](src/assets/thumbnails/thumbnail1.png)
+An on-going personal e-commerce project about fragrances, inspired by Maison Francis Kurkdjian.
 
 https://fragrance-fresh.vercel.app/
 
-Current Tech-stack:
+## Current Tech-stack:
 - Vite
 - TailwindCSS
 - Vercel
