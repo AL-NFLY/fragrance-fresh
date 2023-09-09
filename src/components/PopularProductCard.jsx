@@ -16,7 +16,7 @@ const PopularProductCard = ({imgURL, imgTopURL, name, consentration, price}) => 
         <img 
           src={isHovered ? imgTopURL : imgURL} 
           alt={name} 
-          className="w-64 h-64 bg-gradient-to-r from-slate-200 to-slate-50 rounded-lg group-hover:border-b-4 border-b-primary duration-500 ease-in-out" 
+          className="w-64 h-64 bg-gradient-to-r from-slate-200 to-slate-50  dark:bg-gradient-to-br dark:from-neutral-900 dark:via-neutral-900 dark:to-neutral-800 rounded-lg group-hover:border-b-4 border-b-primary duration-500 ease-in-out" 
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}  
         />
