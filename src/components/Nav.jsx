@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
         ))}
         {/* Insert the dark mode toggle anchor tag here */}
-        <li className="px-3 py-2 duration-300 border dark:bg-neutral-800 dark:border-none hover:bg-primary dark:hover:bg-primary rounded-md">
+        <li className="px-3 py-2 duration-300 border border-slate-300 dark:bg-neutral-800 dark:border-none hover:bg-primary dark:hover:bg-primary rounded-md">
           <a
             href="#"
             className=""
@@ -49,12 +49,20 @@ const Nav = () => {
         </li>
       </ul>
 
-            <div className="hidden max-lg:block">
-              <img 
+            <div className="hidden max-lg:inline-flex max-lg:items-center max-lg:gap-5">
+              <a
+                href="#"
+                className=""
+                onClick={toggleDark}
+              >
+                {isDark ? <FaSun/> : <FaMoon/>}
+              </a>
+            <img 
               src={hamburger} 
               alt="hamburger" 
               width={25}
               height={25}
+              className=""
               />
             </div>
         </nav>
