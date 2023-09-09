@@ -138,12 +138,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Baccarat Rouge 540", link: "/" },
-            { name: "Grand Soir", link: "/" },
-            { name: "Gentle Fluidity Silver", link: "/" },
-            { name: "Amyris Homme", link: "/" },
-            { name: "Amyris Femme", link: "/" },
-            { name: "Feminim Pluriel", link: "/" },
+            { name: "Baccarat Rouge 540", link: "/#products" },
+            { name: "Grand Soir", link: "/#products" },
+            { name: "Gentle Fluidity Silver", link: "/#products" },
+            { name: "Amyris Homme", link: "/#products" },
+            { name: "Amyris Femme", link: "/#products" },
+            { name: "Feminim Pluriel", link: "/#products" },
         ],
     },
     {
