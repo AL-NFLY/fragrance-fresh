@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       
       {/* <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-center"> */}
-      <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 max-sm:mt-10 bg-gradient-to-br from-slate-300 via-amber-50 to-slate-300 rounded-lg bg-center">
+      <div className="relative flex flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 max-sm:mt-10 bg-gradient-to-br from-slate-300 via-amber-50 to-slate-300 dark:from-neutral-900 dark:via-neutral-900 dark:to-primary rounded-sm sm:ml-12 ">
         <img 
         src={bigAquaImg} 
         alt="aqua cologne forte collection"
