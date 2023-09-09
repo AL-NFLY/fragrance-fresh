@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { hamburger } from "../assets/icons";
 import { mfkLogo } from "../assets/images";
 import { navLinks } from "../constants";
-
+import { FaSun, FaMoon } from 'react-icons/fa'
 
 const Nav = () => {
   const [isDark, setIsDark] = useState(false)
@@ -26,7 +26,7 @@ const Nav = () => {
                 />
             </a>
 
-            <ul className="flex flex-1 justify-end gap-16 max-lg:hidden">
+            <ul className="flex flex-1 justify-end gap-16 max-lg:hidden items-center">
         {navLinks.map((item) => (
           <li key={item.label}>
             <a
@@ -38,13 +38,13 @@ const Nav = () => {
           </li>
         ))}
         {/* Insert the dark mode toggle anchor tag here */}
-        <li>
+        <li className="px-3 py-2 duration-300 border dark:bg-neutral-800 dark:border-none hover:bg-primary dark:hover:bg-primary rounded-md">
           <a
             href="#"
-            className="font-postgrotesk leading-none text-base text-slate-gray hover:text-primary hover:underline hover:underline-offset-4 duration-300"
+            className=""
             onClick={toggleDark}
           >
-            Toggle Dark Mode
+            {isDark ? <FaSun/> : <FaMoon/>}
           </a>
         </li>
       </ul>
