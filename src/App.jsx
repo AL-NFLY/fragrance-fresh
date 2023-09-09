@@ -2,7 +2,7 @@ import { Hero, PopularProducts, SuperQuality, Services, SpecialOffers, Subscribe
 import Nav from "./components/Nav";
 
 const App = () =>(
-  <main className="relative">
+  <main className="relative dark:bg-neutral-900 dark:text-white">
     <Nav />
 
     <section className="xl:padding-l wide:padding-r sm:padding-b ">
@@ -14,7 +14,7 @@ const App = () =>(
     <section className="padding">
       <SuperQuality />
     </section>
-    <section className="padding-x py-10 bg-gradient-to-t from-slate-200 via-slate-50 to-slate-200">
+    <section className="padding-x py-10 bg-gradient-to-t from-slate-200 via-slate-50 to-slate-200 dark:from-neutral-900 dark:via-neutral-900 dark:to-neutral-900 ">
       <Services />
     </section>
     <section className="padding">
