@@ -22,7 +22,7 @@ const Hero = () => {
           {/* <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Fragrances</span> */}
         </h1>
 
-        <p className="font-postgrotesk text-slate-gray text-lg leading-8 mt-6 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
+        <p className="font-postgrotesk text-slate-gray dark:text-white-400 text-lg leading-8 mt-6 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
         <div className="mt-12">
         <Button label="Shop now" iconURL={arrowRight} />
         </div>

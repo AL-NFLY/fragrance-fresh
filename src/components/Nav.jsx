@@ -52,7 +52,7 @@ const Nav = () => {
             <div className="hidden max-lg:inline-flex max-lg:items-center max-lg:gap-5">
               <a
                 href="#"
-                className=""
+                className=" "
                 onClick={toggleDark}
               >
                 {isDark ? <FaSun/> : <FaMoon/>}
