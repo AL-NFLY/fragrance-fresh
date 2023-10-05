@@ -24,7 +24,9 @@ const Hero = () => {
 
         <p className="font-postgrotesk text-slate-gray dark:text-white-400 text-lg leading-8 mt-6 sm:max-w-lg">An invitation to travel towards destinations steeped in light, colors and freshness. Freshness plays the leading role in these new creations of the Maison’s olfactory wardrobe.</p>
         <div className="mt-12">
-        <Button label="Shop now" iconURL={arrowRight} />
+          <a href="#products">
+            <Button label="Shop now" iconURL={arrowRight} />
+          </a>
         </div>
 
         <div className="flex justify-start max-sm:justify-between items-start flex-wrap w-full mt-20 max-sm:mt-10 gap-16 max-sm:gap-8">
