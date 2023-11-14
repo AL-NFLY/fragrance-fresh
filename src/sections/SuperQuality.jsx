@@ -8,9 +8,9 @@ const SuperQuality = () => {
             Our Philosophy
           </h2>
           <div className="font-postgrotesk text-slate-gray dark:text-white-400 leading-8 text-lg lg:max-w-2xl">
-            <p className="mt-8 max-sm:mt-6">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion. The Maison is guided by enchanting, yet precise codes: purity, sophistication, timelessness and the boldness of a neo-classicism .</p>
-            <p className="mt-6 max-sm:mt-4">Exceptional know-how come together and echo off each other. They are continually writing a number of sensory adventures, in which perfume is, naturally, the hero.</p>
-            <p className="mt-6 max-sm:mt-4">Our dedication towards reaching that olfactory scent is paramount</p>
+            <p className="mt-6 md:mt-8">Composed like a fragrance wardrobe, each Maison Francis Kurkdjian collection is like the olfactory signature of an emotion. The Maison is guided by enchanting, yet precise codes: purity, sophistication, timelessness and the boldness of a neo-classicism .</p>
+            <p className="mt-4 md:mt-6">Exceptional know-how come together and echo off each other. They are continually writing a number of sensory adventures, in which perfume is, naturally, the hero.</p>
+            <p className="mt-4 md:mt-6">Our dedication towards reaching that olfactory scent is paramount</p>
           </div>
           <div className="mt-10 max-sm:justify-center max-sm:flex">
             <Button label="View Details" />
