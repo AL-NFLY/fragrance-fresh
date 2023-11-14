@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-postgrotesk text-primary max-sm:mt-6">Our Summer Collection</p>
-        <h1 className="mt-8 font-bauerbodoni  font-bold text-8xl max-sm:text-4xl">
+        <h1 className="mt-8 font-bauerbodoni  font-bold text-4xl md:text-8xl">
           <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10">New Summer</span>
           <span className="text-primary xl:inline-block lg:mt-3"> MFK </span> 
           <span className="xl:bg-clip-text xl:whitespace-nowrap relative z-10"> Arrivals</span>
@@ -29,10 +29,10 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="flex justify-start max-sm:justify-between items-start flex-wrap w-full mt-20 max-sm:mt-10 gap-16 max-sm:gap-8">
+        <div className="flex justify-between md:justify-start items-start flex-wrap w-full mt-10 md:mt-20 gap-8 md:gap-16">
           {statistics.map((stat) =>(
             <div key={stat.label}>
-              <p className="text-4xl max-sm:text-3xl font-postgrotesk font-bold">{stat.value}</p>
+              <p className="text-3xl md:text-4xl font-postgrotesk font-bold">{stat.value}</p>
               <p className="leading-6 font-postgrotesk text-slate-gray">{stat.label}</p> 
             </div>
           ))}
@@ -49,7 +49,7 @@ const Hero = () => {
         className="relative object-contain z-10 max-sm:w-52 max-sm:pb-12"
         />
 
-        <div className="flex sm:gap-12 gap-4 absolute bottom-[5%] max-sm:bottom-8 max-sm:px-6  ">
+        <div className="flex sm:gap-12 gap-4 absolute bottom-8 md:bottom-[5%] max-sm:px-6">
           {fragrances.map((aqua) =>(
             <div key={aqua} className="hover:scale-[1.05] active:scale-[0.95] duration-300">
               <AquaCard
