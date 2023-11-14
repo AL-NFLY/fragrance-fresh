@@ -24,8 +24,8 @@ const SpecialOffers = () => {
           Special Offer 
         </h2>
 
-        <p className="mt-8 max-sm:mt-6 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">Delve into the world of Maison Francis Kurkdjian with our discovery collections. Explore unique scents with perfume sets which will stir memories and dreams to aspire to the exceptional.</p>
-        <p className="mt-6 max-sm:mt-4 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">These olfactory wardrobes invite you to browse through the scents. A wonderful way of exploring the perfumes of the Maison and a perfect gift to give or receive.</p>
+        <p className="mt-6 md:mt-8 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">Delve into the world of Maison Francis Kurkdjian with our discovery collections. Explore unique scents with perfume sets which will stir memories and dreams to aspire to the exceptional.</p>
+        <p className="mt-4 md:mt-6 text-lg text-slate-gray dark:text-white-400 lg:max-w-xl font-postgrotesk leading-8">These olfactory wardrobes invite you to browse through the scents. A wonderful way of exploring the perfumes of the Maison and a perfect gift to give or receive.</p>
 
         <div className="mt-10 flex flex-wrap gap-6 max-sm:justify-center">
           <Button 
