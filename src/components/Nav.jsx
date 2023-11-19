@@ -16,7 +16,7 @@ const Nav = () => {
   }, [isDark])
 
   return (
-    <header className="padding-x py-6 fixed z-50 w-full border-b border-slate-300 dark:border-slate-gray bg-white dark:bg-neutral-900 bg-opacity-95">
+    <header className="padding-x py-6 fixed z-50 w-full border-b border-slate-300 dark:border-slate-gray bg-white/95 dark:bg-neutral-900/95">
         <nav className="flex justify-between items-center max-container ">
             <a href="">
                 <img src={mfkLogo} 
