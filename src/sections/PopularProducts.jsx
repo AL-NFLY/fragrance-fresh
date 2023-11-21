@@ -5,7 +5,7 @@ const PopularProducts = () => {
   return (
     <section
       id="products"
-      className="max-container max-sm:mt-12"
+      className="max-container pt-12 md:pt-28"
     >
       <div className="flex flex-col max-sm:items-center">
         <h2 className="text-4xl font-bauerbodoni font-bold">Our <span className="">Popular</span> Products</h2>
