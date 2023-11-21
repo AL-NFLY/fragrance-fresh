@@ -2,7 +2,7 @@ import { heroShowerGel, shoe8 } from "../assets/images"
 import Button from "../components/Button"
 const SuperQuality = () => {
   return (
-    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-8 w-full max-container">
+    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-8 w-full pt-20 max-container">
       <div className="flex flex-1 flex-col">
           <h2 className="mt-8 font-bauerbodoni font-bold text-4xl capitalize lg:max-w-lg">
             Our Philosophy
