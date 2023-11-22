@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { hamburger } from "../assets/icons";
 import { mfkLogo } from "../assets/images";
 import { navLinks } from "../constants";
-import { FaSun, FaMoon, FaHamburger, FaEthernet, FaBars } from 'react-icons/fa'
+import { FaSun, FaMoon, FaBars } from 'react-icons/fa'
 
 const Nav = () => {
   const [isDark, setIsDark] = useState(false)
@@ -57,14 +56,8 @@ const Nav = () => {
               >
                 {isDark ? <FaSun/> : <FaMoon/>}
               </a>
-            {/* <img 
-              src={hamburger} 
-              alt="hamburger" 
-              width={25}
-              height={25}
-              className="dark:text-white"
-              /> */}
-                <FaBars className="w-5 h-auto dark:text-white" />
+
+              <FaBars className="w-5 h-auto dark:text-white" />
             </div>
         </nav>
     </header>
