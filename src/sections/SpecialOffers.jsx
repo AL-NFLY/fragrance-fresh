@@ -3,7 +3,7 @@ import Button from "../components/Button"
 
 const SpecialOffers = () => {
   return (
-    <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container mt-8">
+    <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className="flex flex-row flex-1 flex-wrap items-center justify-center rounded-md pb-10 bg-gradient-to-r from-slate-200 via-slate-100 to-slate-200 dark:bg-gradient-to-br dark:from-neutral-900 dark:via-neutral-900 dark:to-neutral-800 shadow-sm hover:border-b-4 border-b-primary duration-500">
         {/* <img src={offer} alt="offer" width={773} height={687}  
         className="object-contain w-full"
