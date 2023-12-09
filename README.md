@@ -4,7 +4,7 @@
 A personal e-commerce project focused on fragrances, inspired by Maison Francis Kurkdjian.
 
 ## Live Link:
-(Click Here!)[https://fragrance-fresh.vercel.app/]
+[Click Here!](https://fragrance-fresh.vercel.app/)
 
 ## Tech-stack:
 - Vite
