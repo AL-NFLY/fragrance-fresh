@@ -13,3 +13,4 @@ A personal e-commerce project focused on fragrances, inspired by Maison Francis 
 - Express.js (To be added)
 
 ## TODO's:
+- [ ] Migrate to Vastify project
