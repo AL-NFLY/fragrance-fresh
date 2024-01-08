@@ -12,5 +12,5 @@ A personal e-commerce project focused on fragrances, inspired by Maison Francis 
 - Vercel
 - Express.js (To be added)
 
-## TODO's:
+## TODOs:
 - [ ] Migrate to Vastify project
