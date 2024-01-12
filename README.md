@@ -9,8 +9,8 @@ A personal e-commerce project focused on fragrances, inspired by Maison Francis 
 ## Tech-stack:
 - Vite
 - TailwindCSS
-- Vercel
 - Express.js (To be added)
+- Vercel
 
 ## TODOs:
 - [ ] Migrate to Vastify project
